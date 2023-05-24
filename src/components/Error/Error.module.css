@@ -1,0 +1,19 @@
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 68px);
+    width: 100vw;
+    flex-direction: column;
+    gap: 1rem;
+
+    .btn {
+        all: unset;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+        background-color: #640364;
+        color: white;
+         border-radius: 0.5rem;
+     }
+}
+
